@@ -14,10 +14,26 @@ public class JDBCController {
     @Autowired
     JdbcTemplate jdbcTemplate;
     //查询
-@GetMapping("/user")
+@GetMapping("/user1")
     public List<Map<String,Object>> userList() {
     String sql = "select * from identity";
     List<Map<String, Object>> list_maps = jdbcTemplate.queryForList(sql);
+//hashCode()
+//    hashCode()hashCode()hashCode()hashCode()hashCode()hashCode()
+//    hashCode()hashCode()
+//    hashCode()
+//    hashCode()
+//    hashCode()
+//    hashCode()hashCode()
+//    hashCode()
+//
+
+
+
+
+
+
+
 
     return list_maps;
 }
